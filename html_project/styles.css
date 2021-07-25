@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&display=swap');
+
+
+body {
+font-family: 'Oswald', sans-serif, stroke 1px black;
+color: azure;
+
+background-color: rgb(255, 191, 236);
+
+}
+ 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  border-color: azure;
+  border-style: solid;
+  border-width: 3px
+
+}
+
+nav {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  z-index: 2;
+
+}
+
+a.text {
+    padding: 10px;
+    font-family: monospace;
+    text-decoration-line: none;
+    color: azure;
+  
+}
+
+a:hover {
+    color: rgb(255, 0, 157);
+    
+
+}
+
+footer {
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+   font-variant: small-caps;
+}
+
+details {
+    padding: 20px;
+}
+
+h2.chi {
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+summary {
+    font-family: monospace;
+    font-size: 20px;
+}
+summary:hover {
+    color: rgb(255, 0, 157);
+}
+
+p {
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  border-color: azure;
+  border-style: solid;
+  border-width: 3px
+
+}
+
+li {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .audios{
+    position: fixed;
+    align-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 199, 199, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .pups {
+      z-index: 1;
+      position: relative;
+  }
+
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  audio {
+      
+    margin-left: 500px;
+  }
+ 
+  .viewport-header {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
