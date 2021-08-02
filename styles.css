@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+body {
+
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+section {
+   
+
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 30PX;
+
+}
+
+.left {
+    float:left;
+    top:0px;
+    left:0px;
+   
+    
+     
+       
+      }
+
+.right {
+    float:right;
+    top:0px;
+    right:0px;
+ 
+}
